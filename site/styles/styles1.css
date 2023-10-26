@@ -140,13 +140,12 @@
     font-weight: 400; 
 }
 ul {
-/*    list-style-type: disc;    */
     list-style: none;
 }
 main li {
     margin-left: -43px;
 	padding-left: 32px; 
-	background: url("Pics/iconBullet.svg") no-repeat left top; 
+    background: url("../img/svg/iconBullet.svg") no-repeat left top;
 }
 .main__block1_list li {
     font-size: 16px;
@@ -233,13 +232,7 @@ main li {
 .main__block6_text4-text { /* повторяющие абзацы с этим стилем*/
     margin: 0;  
 }
-/*.main__block6_text4-image {
-    flex-shrink: 2;
-    flex-basis: 282px;    
-    width: 100%; 
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-}*/
+
 #block_1 {
     background-color: #FEFAEC;
 }
@@ -278,6 +271,7 @@ main li {
 }
 
 /* боковая панель */
+
 .aside {
     position: relative;
 }
@@ -319,6 +313,14 @@ main li {
     border-radius: 4px;
     cursor: pointer;
 }
+.aside__block1_btn:hover {
+    background-color: #2963A3;
+}
+.aside__block1_btn:active {
+    background-color: turquoise;
+}
+
+/* 2 блок */
 .aside__block2 {
     display: flex;
     padding: 24px;
@@ -392,11 +394,25 @@ main li {
     font-weight: 400;     
     padding-bottom: 8px;
 }
+/* 3 блок */
 .aside__block3 {
     background-color: #2963A3;
     max-height: 292px;
     position: relative;
+    background-image: url(../img/png/Imageasideb3.png);
 }
+.aside__block3 h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-top: 30px;
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    font-size: 44px;
+}
+
 .aside__block3_image1 {
     height: 100%;
     border-radius: 6px;
@@ -404,17 +420,7 @@ main li {
     aspect-ratio: 1 / 1;
     overflow: hidden;
 }
-/*    position: absolute;
-    width: 100%;
-}
-.aside__block3_image2 {
-    position: absolute;
-    width: 75%;
-    left: 29%;
-    top: 52%;
-    overflow: hidden;
 
-}*/
 .aside__block4 {
     display: flex;
     padding: 24px;
