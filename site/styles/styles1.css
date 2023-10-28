@@ -468,3 +468,8 @@ main li {
     right: 0;
     top: 50%;
 }
+/* footer */
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
