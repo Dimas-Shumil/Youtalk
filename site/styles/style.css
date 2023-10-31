@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    /* background-color: yellow; */
 }
 
 
@@ -22,7 +21,6 @@ a {
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    /* 142.857% */
 }
 
 a:hover {
@@ -31,23 +29,18 @@ a:hover {
 
 p {
     color: #333;
-
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    /*line-height: 20px;*/
-    /* 142.857% */
 }
 
 h4 {
-    /*    align-self: stretch;*/
     color: #333;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    /* 144.444% */
 }
 
 /* навигация 1 */
@@ -59,16 +52,13 @@ h4 {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
-    /* max-width: 100%; */
-    /* background-color: blue; */
 }
 
 .header__logo {
     width: 51px;
     height: 36px;
     flex-shrink: 0;
-    /* border: solid salmon; */
+  
 }
 
 .header__links {
@@ -76,17 +66,13 @@ h4 {
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
-    /* width: 704px;
-    height: 16px; */
     list-style: none;
     gap: 20px;
-    /* border: solid salmon; */
 }
 
 .header__link {
     color: #333;
     text-align: center;
-    /* xl/ link1 medium */
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -256,24 +242,15 @@ h4 {
     flex-direction: column;
     border: 1px solid black;
     border-radius: 24px;
-    /* width: 588px;
-    height: 499px;*/
 
 }
 
-/*.info__blok1-img {
-    width: 588px;
-    height: 260px;
-}*/
-
 .info__blok1-left img {
     width: 100%;
-    /* position: relative; */
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
     position: relative;
 }
-
 
 .info__blok1-left>h4 {
     color: #333;
